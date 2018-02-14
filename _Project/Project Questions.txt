@@ -1,0 +1,18 @@
+Questions:
+Questions about the roles
+Answer:
+
+How to Sign In?
+How to pull data according to who's logged in? Creators-Teachers-Didacticien....
+Answer: LTI (Learning Tool Ineraction) For signing In
+
+Source Code for WIMS
+Answer: With David (wait for mail)
+
+
+
+-Check different libraries for visual data.
+	Make a sheet about comparison between visual libraries
+
+- Read the interviews and visiualize what the layout might look like for each role.
+		Requirement for the design.

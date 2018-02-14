@@ -1,0 +1,42 @@
+Actors:
+
+-STUDENT
+What he wants to know:
+
+    where I place myself in the classroom
+    where I am in relation to the objectives of the course
+    What Concepts is causing me problems, what exercises I must do again to revise
+
+and that in a simple dashboard with all these courses and for each course the information in a synthetic way. 
+what he does not want to do, having to look in menus and a tree for information about him. 
+It MUST NOT access accurate information about others. Just positioning elements (ranking of ECTS)
+
+-TEACHER
+Teacher Teachers want to be able to use existing worksheets and a ready-made statistics module. 
+What he wants is to have a view of his class at a glance:
+    general progress
+    identification of students in difficulty / delay
+    notions that do not pass (or have not passed yet).
+
+what he does not want to do:
+
+    define data extraction
+    set the statistic to computed
+    search in menus
+
+he must not access information from other classes.
+
+-CREATOR
+Creator The exercise creator wants to validate the exercises he writes on one of the exercise platforms. 
+He wants to be able to analyze the answers to one of these exercises, or an exercise sheet. 
+He wants to be able to filter the answers by LevelX or classes or institutions. 
+he wants to be able to progressivity of a worksheet that is given by the average number of tests on each exercise and 
+be able to compare this value with other sheets. He wants to validate the revisions algorithms show that once the student 
+has done X revision exercises the number of mastered concepts to increase significantly. 
+He may want to use the Tutorial's interface to specify some specific tests / searches.
+
+-Didacticien
+It needs to be able to define a data search and display it. 
+For this he is able to learn a specific programming language but not too complicated. 
+Of course he wants to be able to display his research graphically in the easiest way possible. 
+The site must offer different graphical representation of the data. Think about what Excel can do or openoffice.
