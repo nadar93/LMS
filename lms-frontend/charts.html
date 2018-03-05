@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+    
+<head>    
+        <!-- Title -->
+        <title>LMS | Charts - Chart.js</title>
+      
+        <!-- Styles -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+        <link href="assets/plugins/pace-master/themes/blue/pace-theme-flash.css" rel="stylesheet"/>
+        <link href="assets/plugins/uniform/css/uniform.default.min.css" rel="stylesheet"/>
+        <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/plugins/fontawesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/plugins/line-icons/simple-line-icons.css" rel="stylesheet" type="text/css"/>	
+        <link href="assets/plugins/offcanvasmenueffects/css/menu_cornerbox.css" rel="stylesheet" type="text/css"/>	
+        <link href="assets/plugins/waves/waves.min.css" rel="stylesheet" type="text/css"/>	
+        <link href="assets/plugins/switchery/switchery.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/plugins/3d-bold-navigation/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/plugins/slidepushmenus/css/component.css" rel="stylesheet" type="text/css"/>	
+         
+        <!-- Theme Styles -->
+        <link href="assets/css/modern.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/themes/green.css" class="theme-color" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="assets/plugins/3d-bold-navigation/js/modernizr.js"></script>
+        <script src="assets/plugins/offcanvasmenueffects/js/snap.svg-min.js"></script>
+
+        <!-- MORRIS CHARTS STYLE-->
+        <link href="assets/plugins/morris/morris.css" rel="stylesheet" type="text/css"/>
+        
+    </head>
+    <body class="page-header-fixed">
+        <main class="page-content content-wrap">
+            <div class="page-inner">
+                <div id="main-wrapper">
+                   <h2>CHART JS</h2>
+                    <!-- BEGIN CHART JS -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Line Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div>
+                                        <canvas id="chart1" height="150"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Bar Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div>
+                                        <canvas id="chart2" height="150"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Pie Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div>
+                                        <canvas id="chart3" height="150"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Doughnut Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div>
+                                        <canvas id="chart4" height="150"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Polar Area Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div>
+                                        <canvas id="chart5" height="150"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Radar Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div>
+                                        <canvas id="chart6" height="150"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- END CHARTJS -->
+
+                <!-- BEGIN FLOT CHART -->
+                <h2>FLOT CHARTS</h2>
+                 <div class="row">
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Bar Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="flot1"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Line Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="flot2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Pie Ct</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="flot3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Live Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="flot4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- END FLOT CHART -->
+
+                <!-- BEGIN MORRIS CHART -->
+                <h2>MORRIS CHARTS</h2>
+                 <div class="row">
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Area Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="morris1"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Bar Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="morris2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Line Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="morris3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Donut Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="morris4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- END MORRIS CHART -->
+
+                <!-- BEGIN SPARKLINE CHARTS -->
+                    <h2>SPARKLINE CHARTS</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Line Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="sparkline1"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Bar Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="sparkline2" class="text-center"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Pie Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="sparkline3" class="text-center"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Custom Line Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="sparkline4" class="text-center" height="165px"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Mouse Speed Chart Example</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="sparkline5" class="text-center" height="165px"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Composite bar Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="sparkline6" class="text-center" height="165px"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- END SPARKLINES CHARTS -->
+
+                <!-- BEGIN RICKSHAW CHARTS -->
+                <h2>RICKSHAW CHARTS</h2>
+                <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Interactive Real-Time Data Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="rickshaw9"></div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Simple Area Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="rickshaw1"></div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Stacked Area Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="rickshaw2"></div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Line Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="rickshaw3"></div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Multiple Line Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="rickshaw4"></div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Bar Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="rickshaw5"></div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Stacked Bar Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="rickshaw6"></div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Multiple Bar Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="rickshaw7"></div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Scatterplot Chart</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="rickshaw8"></div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- END RICKSHAW CHARTS -->
+                </div><!-- Main Wrapper -->
+                <div class="page-footer">
+                    <p class="no-s">2018 &copy; LMS.</p>
+                </div>
+            </div><!-- Page Inner -->
+        </main><!-- Page Content -->
+      
+        <div class="cd-overlay"></div>
+        <!-- Javascripts -->
+        <script src="assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+        <script src="assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+        <script src="assets/plugins/pace-master/pace.min.js"></script>
+        <script src="assets/plugins/jquery-blockui/jquery.blockui.js"></script>
+        <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="assets/plugins/switchery/switchery.min.js"></script>
+        <script src="assets/plugins/uniform/jquery.uniform.min.js"></script>
+        <script src="assets/plugins/offcanvasmenueffects/js/main.js"></script>
+        <script src="assets/plugins/waves/waves.min.js"></script>
+        <script src="assets/plugins/chartsjs/Chart.min.js"></script>
+        <script src="assets/js/modern.min.js"></script>
+        <script src="assets/js/pages/charts-chartjs.js"></script>
+        
+        <!-- SCRIPTS FOR FLOT CHART -->
+        <script src="assets/plugins/flot/jquery.flot.min.js"></script>
+        <script src="assets/plugins/flot/jquery.flot.time.min.js"></script>
+        <script src="assets/plugins/flot/jquery.flot.symbol.min.js"></script>
+        <script src="assets/plugins/flot/jquery.flot.resize.min.js"></script>
+        <script src="assets/plugins/flot/jquery.flot.tooltip.min.js"></script>
+        <script src="assets/plugins/flot/jquery.flot.pie.min.js"></script>
+        <script src="assets/js/pages/charts-flot.js"></script>
+
+        <!-- SCRIPTS FOR MORRIS CHARTS -->
+        <script src="assets/plugins/morris/raphael.min.js"></script>
+        <script src="assets/plugins/morris/morris.min.js"></script>
+        <script src="assets/js/pages/charts-morris.js"></script>
+
+        <!-- SCRIPTS FOR SPARKLINE CHARTS -->
+        <script src="assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+        <script src="assets/js/pages/charts-sparkline.js"></script>
+
+        <!-- SCRIPTS FOR RICKSHAW CHARTS -->
+        <script src="assets/plugins/d3/d3.min.js"></script>
+        <script src="assets/plugins/d3/d3.layout.min.js"></script>
+        <script src="assets/plugins/rickshaw/rickshaw.min.js"></script>
+        <script src="assets/js/pages/charts-rickshaw.js"></script>
+    </body>
+</html>
