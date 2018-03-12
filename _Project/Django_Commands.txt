@@ -1,0 +1,9 @@
+django-admin startproject *project_name*
+python manage.py runserver
+python manage.py migrate (creates tables in the database)
+python manage.py createsuperuser
+python manage.py startapp *app_name*
+
+To create tables after creading a MODEL:
+python manage.py makemigrations
+python manage.py migrate
