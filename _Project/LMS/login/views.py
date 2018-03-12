@@ -6,4 +6,15 @@ from django.http import Http404, HttpResponseRedirect
 from django.urls import reverse
 
 from login.models import Role,LMSUser
-# Create your views here.
+
+
+def index(request):
+   # here is your code
+        
+    return render(request, 'classmanagement/index.html', {
+        'course': course,
+    })
+
+
+
+
