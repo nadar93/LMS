@@ -24,17 +24,17 @@ $( document ).ready(function() {
     Morris.Bar({
         element: 'morris2',
         data: [
-            { year: 'M.L.', a: 25, b: 15 },
-            { year: 'Adv. Algo', a: 50, b: 40 },
-            { year: 'Comp. Arch.', a: 75, b: 65 },
-            { year: 'Robotics', a: 100, b: 90 },
-            { year: 'Python', a: 60, b: 50 },
-            { year: 'R.T.S', a: 75, b: 65 },
-            { year: 'Wireless', a: 100, b: 90 } 
+            { year: '2006', a: 25, b: 15 },
+            { year: '2007', a: 50, b: 40 },
+            { year: '2008', a: 75, b: 65 },
+            { year: '2009', a: 100, b: 90 },
+            { year: '2010', a: 60, b: 50 },
+            { year: '2011', a: 75, b: 65 },
+            { year: '2012', a: 100, b: 90 } 
         ],
         xkey: 'year',
         ykeys: ['a', 'b'],
-        labels: ['Attempts', 'Success'],
+        labels: ['a', 'b'],
         barRatio: 0.4,
         xLabelAngle: 35,
         hideHover: 'auto',

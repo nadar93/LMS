@@ -4,14 +4,10 @@
 <head>
         
         <!-- Title -->
-        <title>Modern | Admin Dashboard Template</title>
+        <title>LMS | Dashboard Customization</title>
         
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta charset="UTF-8">
-        <meta name="description" content="Admin Dashboard Template" />
-        <meta name="keywords" content="admin,dashboard" />
-        <meta name="author" content="Steelcoders" />
-        
         <!-- Styles -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
         <link href="assets/plugins/pace-master/themes/blue/pace-theme-flash.css" rel="stylesheet"/>
@@ -36,15 +32,10 @@
         <script src="assets/plugins/3d-bold-navigation/js/modernizr.js"></script>
         <script src="assets/plugins/offcanvasmenueffects/js/snap.svg-min.js"></script>
 
-                <!-- MORRIS CHARTS STYLE-->
-        <link href="assets/plugins/morris/morris.css" rel="stylesheet" type="text/css"/>
-        
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+        <!-- Drag and Drop tiles stylesheets -->
+        <link href='assets/plugins/dragDrop/stylesheets/jquery.gridly.css' rel='stylesheet' type='text/css'>
+        <link href='assets/plugins/dragDrop/stylesheets/sample.css' rel='stylesheet' type='text/css'>
+        <link href="assets/plugins/toastr/toastr.min.css" rel="stylesheet"/>
         
     </head>
     <body class="page-header-fixed">
@@ -404,426 +395,84 @@
                     <div class="page-breadcrumb">
                         <ol class="breadcrumb">
                             <li><a href="#">Home</a></li>
-                            <li class="active">Dashboard</li>
+                            <li class="active">Customize Dashboard</li>
                         </ol>
                     </div>
                 </div>
                 <div id="main-wrapper">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="panel info-box panel-white">
-                                <div class="panel-body">
-                                    <div class="info-box-stats">
-                                        <p class="counter">140</p>
-                                        <span class="info-box-title">Students enrolled</span>
-                                    </div>
-                                    <div class="info-box-icon">
-                                        <i class="icon-users"></i>
-                                    </div>
-                                    <div class="info-box-progress">
-                                        <div class="progress progress-xs progress-squared bs-n">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                 <!-- BEGIN TILES -->
+                 <div class="row">
+                    <div class="col-lg-10">
+         
+                      <section class='example'>
+                        <div class='gridly'>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Student Stats chart added to dashboard');"><i class="fa fa-check"></i></a>
+                            <img src="assets/images/ch1.jpg" style="width: 100%; padding: 2px">
+                          </div>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Exam Stats chart added to dashboard');"><i class="fa fa-check"></i></a>
+                            <img src="assets/images/ch2.jpg" style="width: 100%; padding: 2px">
+                          </div>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Attendance chart added to dashboard');"><i class="fa fa-check"></i></a>
+                            <img src="assets/images/ch3.jpg" style="width: 100%; padding: 2px">
+                          </div>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Attendance chart added to dashboard');"><i class="fa fa-check"></i></a>
+                            <img src="assets/images/ch4.jpg" style="width: 100%; padding: 2px">
+                          </div>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Grades chart added to dashboard');"><i class="fa fa-check"></i></a>
+                            <img src="assets/images/ch5.jpg" style="width: 100%; padding: 2px">
+                          </div>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Attendance chart added to dashboard');"><i class="fa fa-check"></i></a>
+                            <img src="assets/images/ch6.jpg" style="width: 100%; padding: 2px">
+                          </div>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Exams chart added to dashboard');"><i class="fa fa-check"></i></a>
+                            <img src="assets/images/ch7.jpg" style="width: 100%; padding: 2px">
+                          </div>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Attendance chart added to dashboard');"><i class="fa fa-check"></i></a>
+                            <img src="assets/images/ch8.jpg" style="width: 100%; padding: 2px">
+                          </div>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Quiz attempts chart added to dashboard');"><i class="fa fa-check"></i></a>
+                            <img src="assets/images/ch9.jpg" style="width: 100%; padding: 2px">
+                          </div>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Attendance chart added to dashboard');"><i class="fa fa-check"></i></a>
+                            <img src="assets/images/ch10.jpg" style="width: 100%; padding: 2px">
+                          </div>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Attendance chart added to dashboard');"><i class="fa fa-check"></i></a>
+                            <img src="assets/images/ch11.jpg" style="width: 100%; padding: 2px">
+                          </div>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Attendance chart added to dashboard');"><i class="fa fa-check"></i></a>
+                            <img src="assets/images/ch12.jpg" style="width: 100%; padding: 2px">
+                          </div>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Attendance chart added to dashboard');"><i class="fa fa-check"></i></a>
+                           <img src="assets/images/ch13.jpg" style="width: 100%; padding: 2px"> 
+                          </div>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Attempted tests chart added to dashboard');"><i class="fa fa-check"></i></a>
+                          </div>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Attendance chart added to dashboard');"><i class="fa fa-check"></i></a>
+                          </div>
+                          <div class='brick small'>
+                            <a class='delete' href='#' onclick="return alert('Attendance chart added to dashboard');"><i class="fa fa-check"></i></a>
+                          </div>
                         </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="panel info-box panel-white">
-                                <div class="panel-body">
-                                    <div class="info-box-stats">
-                                        <p class="counter">45</p>
-                                        <span class="info-box-title">Tests conducted</span>
-                                    </div>
-                                    <div class="info-box-icon">
-                                        <i class="icon-eye"></i>
-                                    </div>
-                                    <div class="info-box-progress">
-                                        <div class="progress progress-xs progress-squared bs-n">
-                                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="panel info-box panel-white">
-                                <div class="panel-body">
-                                    <div class="info-box-stats">
-                                        <p><span class="counter">285</span></p>
-                                        <span class="info-box-title">Number of students took test</span>
-                                    </div>
-                                    <div class="info-box-icon">
-                                        <i class="icon-users"></i>
-                                    </div>
-                                    <div class="info-box-progress">
-                                        <div class="progress progress-xs progress-squared bs-n">
-                                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="panel info-box panel-white">
-                                <div class="panel-body">
-                                    <div class="info-box-stats">
-                                        <p class="counter">40</p>
-                                        <span class="info-box-title">New emails recieved</span>
-                                    </div>
-                                    <div class="info-box-icon">
-                                        <i class="icon-envelope"></i>
-                                    </div>
-                                    <div class="info-box-progress">
-                                        <div class="progress progress-xs progress-squared bs-n">
-                                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- Row -->
-                   
-                    <div class="row">     
-					<!-- Bar chart starts here -->
-                    <!-- BEGIN CHART JS -->
-                    
-                        <div class="col-md-6" style="display: none;">
-                            <div class="panel panel-white">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Line Chart</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div>
-                                        <canvas id="chart1" height="150"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="panel panel-white">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Percentage of success – failure</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div>
-                                        <canvas id="chart2" height="150"></canvas>
-                                    </div>
-                                </div>
-                        	</div>
-                        </div>
-                	<!-- END CHART JS -->
-                	
-		            <!-- BEGIN MORRIS CHART -->
-                        <div class="col-md-6" style="display: none">
-                            <div class="panel panel-white">
-                                <div class="panel-body">
-                                    <div id="morris1"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="panel panel-white">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Bar Chart</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div id="morris2" style="height: 265px"></div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="col-md-6" style="display: none">
-                            <div class="panel panel-white">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Line Chart</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div id="morris3"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6" style="display: none">
-                            <div class="panel panel-white">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Donut Chart</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div id="morris4"></div>
-                                </div>
-                            </div>
-                        </div>
-		                <!-- END MORRIS CHART -->
-		            </div>
-                                     
-                        <div class="col-md-6" style="display: none;">
-                            <div class="panel panel-white">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Pie Chart</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div>
-                                        <canvas id="chart3" height="150"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6" style="display: none;">
-                            <div class="panel panel-white">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Doughnut Chart</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div>
-                                        <canvas id="chart4" height="150"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                    
-                        <div class="col-md-6" style="display: none;">
-                            <div class="panel panel-white">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Polar Area Chart</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div>
-                                        <canvas id="chart5" height="150"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6" style="display: none;">
-                            <div class="panel panel-white">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Radar Chart</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div>
-                                        <canvas id="chart6" height="150"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                <!-- END CHARTJS -->
-
-                    <!-- START PIE CHART -->
-                        <div class="col-md-6" style="display: none;">
-                            <div class="panel panel-white">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Bar Chart</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div id="flot1"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6" style="display: none;">
-                            <div class="panel panel-white">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Line Chart</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div id="flot2"></div>
-                                </div>
-                            </div>
-                        </div>
-                    
-
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="panel panel-white">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Number of students took test</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div id="flot3"></div>
-                                </div>
-                            </div>
-                        </div>
-                    <!-- END PIE CHART -->
-
-                    <!-- BEGIN STUDENTS COMPARISON CHART -->
-                    	<div class="col-lg-4 col-md-6">
-                            <div class="panel panel-white">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Students Success Comparison</h3><br>
-                                    <p style="color:#ebcc3a; display: inline; z-index: 999; position: absolute;"><strong>2017</strong></p><br>
-                                    <p style="color:#EB3737; display: inline; z-index: 999; position: absolute;"><strong>2018</strong></p>
-                                </div>
-                                <div class="panel-body">
-                                    <div id="sparkline1"></div>
-                                </div>
-                            </div>
-                    	</div>
-                    <!-- END STUDENTS COMPARISON CHART -->
-
-                        <div class="col-lg-4 col-md-6">
-                            <div class="panel panel-white">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">Students Messages</h4>
-                                    <div class="panel-control">
-                                        <a href="javascript:void(0);" data-toggle="tooltip" data-placement="top" title="Reload" class="panel-reload"><i class="icon-reload"></i></a>
-                                    </div>
-                                </div>
-                                <div class="panel-body" style="height:270px">
-                                    <div class="inbox-widget slimscroll">
-                                        <a href="#">
-                                            <div class="inbox-item">
-                                                <div class="inbox-item-img"><img src="assets/images/avatar2.png" class="img-circle" alt=""></div>
-                                                <p class="inbox-item-author">Sandra Smith</p>
-                                                <p class="inbox-item-text">Hey! I'm working on your...</p>
-                                                <p class="inbox-item-date">25 Feb 18</p>
-                                            </div>
-                                        </a>
-                                        <a href="#">
-                                            <div class="inbox-item">
-                                                <div class="inbox-item-img"><img src="assets/images/avatar3.png" class="img-circle" alt=""></div>
-                                                <p class="inbox-item-author">Christopher</p>
-                                                <p class="inbox-item-text">I've finished it! See you so...</p>
-                                                <p class="inbox-item-date">14 Feb 18</p>
-                                            </div>
-                                        </a>
-                                        <a href="#">
-                                            <div class="inbox-item">
-                                                <div class="inbox-item-img"><img src="assets/images/avatar4.png" class="img-circle" alt=""></div>
-                                                <p class="inbox-item-author">Amily Lee</p>
-                                                <p class="inbox-item-text">Let me know the upcoming....</p>
-                                                <p class="inbox-item-date">20 Jan 18</p>
-                                            </div>
-                                        </a>
-                                        <a href="#">
-                                            <div class="inbox-item">
-                                                <div class="inbox-item-img"><img src="assets/images/avatar5.png" class="img-circle" alt=""></div>
-                                                <p class="inbox-item-author">Nick Doe</p>
-                                                <p class="inbox-item-text">Hello, Proffesor</p>
-                                                <p class="inbox-item-date">15 Jan 18</p>
-                                            </div>
-                                        </a>
-                                        <a href="#">
-                                            <div class="inbox-item">
-                                                <div class="inbox-item-img"><img src="assets/images/avatar2.png" class="img-circle" alt=""></div>
-                                                <p class="inbox-item-author">Sandra Smith</p>
-                                                <p class="inbox-item-text">Hey! I'm working on your...</p>
-                                                <p class="inbox-item-date">18 Dec 17</p>
-                                            </div>
-                                        </a>
-                                        <a href="#">
-                                            <div class="inbox-item">
-                                                <div class="inbox-item-img"><img src="assets/images/avatar4.png" class="img-circle" alt=""></div>
-                                                <p class="inbox-item-author">Amily Lee</p>
-                                                <p class="inbox-item-text">Great to see you again..!</p>
-                                                <p class="inbox-item-date">8 Dec 17</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                       
-                        <div class=" col-md-12">
-                            <div class="panel panel-white">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">Number of currently running tests<s></s></h4>
-                                </div>
-                                <div class="panel-body">
-                                    <div class="table-responsive project-stats">  
-                                       <table class="table">
-                                           <thead>
-                                               <tr>
-                                                   <th>Number</th>
-                                                   <th>Test name</th>
-                                                   <th>Status</th>
-                                                   <th>Course</th>
-                                                   <th>Number of students took test</th>
-                                               </tr>
-                                           </thead>
-                                           <tbody>
-                                               <tr>
-                                                   <th scope="row">1</th>
-                                                   <td>David Green</td>
-                                                   <td><span class="label label-info">Pending</span></td>
-                                                   <td> Comp. Arch.</td>
-                                                   <td>
-                                                   <div class="progress progress-sm">
-                                                           <div class="progress-bar label label-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                                           </div>
-                                                       </div>
-                                                   </td>
-                                               </tr>
-                                               <tr>
-                                                   <th scope="row">2</th>
-                                                   <td>Sandra Smith</td>
-                                                   <td><span class="label label-primary">In Progress</span></td>
-                                                   <td> Adv. Algo.</td>
-                                                   <td>
-                                                       <div class="progress progress-sm">
-                                                           <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
-                                                           </div>
-                                                       </div>
-                                                   </td>
-                                               </tr>
-                                               <tr>
-                                                   <th scope="row">3</th>
-                                                   <td>Chritopher Palmer</td>
-                                                   <td><span class="label label-success">Finished</span></td>
-                                                   <td> Robotics</td>
-                                                   <td>
-                                                       <div class="progress progress-sm">
-                                                           <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-                                                           </div>
-                                                       </div>
-                                                   </td>
-                                               </tr>
-                                               <tr>
-                                                   <th scope="row">4</th>
-                                                   <td>Amily Lee</td>
-                                                   <td><span class="label label-danger">Canceled</span></td>
-                                                   <td> Python</td>
-                                                   <td>
-                                                       <div class="progress progress-sm">
-                                                           <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                                                           </div>
-                                                       </div>
-                                                   </td>
-                                               </tr>
-                                               <tr>
-                                                   <th scope="row">5</th>
-                                                   <td> Nick Doe </td>
-                                                   <td><span class="label label-primary">In Progress</span></td>
-                                                   <td> M.L.</td>
-                                                   <td>
-                                                       <div class="progress progress-sm">
-                                                           <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-                                                           </div>
-                                                       </div>
-                                                   </td>
-                                               </tr>
-                                               <tr>
-                                                   <th scope="row">6</th>
-                                                   <td> David Green </td>
-                                                   <td><span class="label label-warning">Waiting</span></td>
-                                                   <td> R.T.S.</td>
-                                                   <td>
-                                                       <div class="progress progress-sm">
-                                                           <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-                                                           </div>
-                                                       </div>
-                                                   </td>
-                                               </tr>
-                                           </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        
+                      </section>
                     </div>
+                 </div>
+                <!-- END TILES -->
+                 
                 </div><!-- Main Wrapper -->
                 <div class="page-footer">
                     <p class="no-s">2018 &copy; Learning Managment System.</p>
@@ -887,16 +536,45 @@
             </ul>
         </nav>
         <div class="cd-overlay"></div>
-	
+
+        <!-- Begin Toast Area -->
+                                        <div class="col-md-2" style="display: none">
+                                                <div class="control-group" id="toastTypeGroup">
+                                                    <div class="controls">
+                                                            <input type="radio" name="toasts" value="success" checked />
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-2" style="display: none">
+                                                <div class="control-group">
+                                                    <div class="controls">
+                                                        <input id="showEasing" type="text" placeholder="swing, linear" class="input-mini form-control" value="swing" />
+                                                        <input id="hideEasing" type="text" placeholder="swing, linear" class="input-mini form-control" value="linear" />
+                                                        <input id="showMethod" type="text" placeholder="show, fadeIn, slideDown" class="input-mini form-control" value="fadeIn" />
+                                                        <input id="hideMethod" type="text" placeholder="hide, fadeOut, slideUp" class="input-mini form-control" value="fadeOut" />
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-3" style="display: none">
+                                                <div class="control-group">
+                                                    <div class="controls">
+                                                        <input id="showDuration" type="text" placeholder="ms" class="input-mini form-control" value="300" />
+                                                        <input id="hideDuration" type="text" placeholder="ms" class="input-mini form-control" value="1000" />
+                                                        <input id="timeOut" type="text" placeholder="ms" class="input-mini form-control" value="5000" />
+                                                        <input id="extendedTimeOut" type="text" placeholder="ms" class="input-mini form-control" value="1000" />
+                                                    </div>
+                                                </div>
+                                            </div>
+        <!-- End Toast Area -->     
+       
         <!-- Javascripts -->
         <script src="assets/plugins/offcanvasmenueffects/js/classie.js"></script>
         <script src="assets/plugins/3d-bold-navigation/js/main.js"></script>
         <script src="assets/plugins/waypoints/jquery.waypoints.min.js"></script>
         <script src="assets/plugins/jquery-counterup/jquery.counterup.min.js"></script>
-        <script src="assets/plugins/toastr/toastr.min.js"></script>
-        
-        <script src="assets/plugins/curvedlines/curvedLines.js"></script>
-        <script src="assets/plugins/metrojs/MetroJs.min.js"></script>
+       
         <script src="assets/js/modern.js"></script>
         <script src="assets/js/pages/dashboard.js"></script>
                
@@ -910,23 +588,14 @@
         <script src="assets/plugins/uniform/jquery.uniform.min.js"></script>
         <script src="assets/plugins/offcanvasmenueffects/js/main.js"></script>
         <script src="assets/plugins/waves/waves.min.js"></script>
-        <script src="assets/plugins/chartsjs/Chart.min.js"></script>
         <script src="assets/js/modern.min.js"></script>
-        <script src="assets/js/pages/charts-chartjs.js"></script>
 
-        <!-- SCRIPTS FOR MORRIS CHARTS -->
-        <script src="assets/plugins/morris/raphael.min.js"></script>
-        <script src="assets/plugins/morris/morris.min.js"></script>
-        <script src="assets/js/pages/charts-morris.js"></script>
-
-        <!-- SCRIPTS FOR SPARKLINE CHARTS -->
-        <script src="assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
-        <script src="assets/js/pages/charts-sparkline.js"></script>
-
-        <!-- SCRIPTS FOR FLOT CHART -->
-        <script src="assets/plugins/flot/jquery.flot.min.js"></script>
-        <script src="assets/plugins/flot/jquery.flot.pie.min.js"></script>
-        <script src="assets/js/pages/charts-flot.js"></script>
+        <!-- Script for Drag and Drop tiles -->
+        <script src='assets/plugins/dragDrop/javascripts/jquery.gridly.js' type='text/javascript'></script>
+        <script src='assets/plugins/dragDrop/javascripts/sample.js' type='text/javascript'></script>
+        <script src='assets/plugins/dragDrop/javascripts/rainbow.js' type='text/javascript'></script>
+        <script src="assets/plugins/toastr/toastr.min.js"></script>
+        <script src="assets/js/pages/notifications.js"></script>
         
     </body>
 </html>
