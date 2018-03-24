@@ -16,7 +16,7 @@ class Role(models.Model):
         (ANTICHEAT, 'Anticheat')
     )
     
-    role = models.CharField(primary_key = True, max_length=2, choices=ROLES, null = False, default=LEARNER)
+    role = models.CharField(primary_key = True, max_length=2, choices=ROLES, null = False, default=TEACHER)
     
     def __str__(self):
         return self.role
